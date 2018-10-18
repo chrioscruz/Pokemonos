@@ -2,21 +2,16 @@
   <h1>Pokemonos</h1>
 
   <div >
-    <form #ngformlogin = "ngForm" class= "cuadro">
-
+        <form #ngformlogin = "ngForm" class= "cuadro">
       <br>
-      <b>User</b>
-      <br>
-      <input type="text" name="username" value="user" size="25" maxlength="30" [(ngModel)]=" user.username">
-      <br>
-      <b>Password</b>
-      <br>
-      <input type="text" name="password" value="Pass" size="25" maxlength="30" [(ngModel)]=" user.password">
-      <br>
-
-      <input type="submit" name=" " value=" send " class= "botton"/>
-
-      <br>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="User" type="text" name="username" value="user" size="25" maxlength="30" [(ngModel)]=" user.username">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Password" type="text" name="username" value="user" size="25" maxlength="30" [(ngModel)]=" user.password">
+      </mat-form-field>
+          <button mat-mini-fab routerLink="/home">Enviar</button>
+          <br>
     </form>
   </div>
 

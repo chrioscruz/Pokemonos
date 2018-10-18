@@ -7,7 +7,8 @@ font-family: Purisa;
   width: 250px;
   height: 150px;
   Border: 2px solid silver;
-  border-radius: 4px;
+  background: deepskyblue;
+  border-radius: 5px;
 
 }
 .botton {
