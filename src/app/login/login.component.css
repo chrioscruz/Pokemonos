@@ -1,0 +1,20 @@
+h1 { text-align: center;
+font-family: Purisa;
+
+}
+.cuadro{
+
+  width: 250px;
+  height: 150px;
+  Border: 2px solid silver;
+  border-radius: 4px;
+
+}
+.botton {
+  font-family: Purisa;
+  text-align: center;
+  color: black;
+  padding: 5px 15px;
+margin: 10px 0 0 75px ;
+
+}
